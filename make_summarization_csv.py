@@ -82,7 +82,7 @@ if __name__ == '__main__':
     logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
     parser = argparse.ArgumentParser(description='')
-    parser.add_argument('-dataset_path', help='Path to the generated dataset')
+    parser.add_argument('-dataset_path', default=".", help='Path to the generated dataset')
     parser.add_argument('--for_qfid', action='store_true', help='Add if you train QFiD on the generated csv files')
     args = parser.parse_args()
 

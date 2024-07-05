@@ -4,9 +4,9 @@ CUDA_VISIBLE_DEVICES=0 \
     --do_train \
     --do_eval \
     --do_predict \
-    --train_file ../dataset/train_3000/first_3000_train_qfid.csv \
-    --validation_file ../dataset/train_3000//first_300_val_qfid.csv \
-    --test_file ../dataset/train_3000/first_300_test_qfid.csv \
+    --train_file ../dataset/train_10000/first_10000_train_qfid.csv \
+    --validation_file ../dataset/train_10000//first_1000_val_qfid.csv \
+    --test_file ../dataset/train_10000/first_1000_test_qfid.csv \
     --text_column reference \
     --summary_column target \
     --output_dir ./test \
