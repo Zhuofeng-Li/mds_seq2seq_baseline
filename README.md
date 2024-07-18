@@ -37,3 +37,6 @@ Please refer to `train_baseline.sh`.
 
 Only T5 models `google-t5/t5-small`, `google-t5/t5-base`, `google-t5/t5-large`, `google-t5/t5-3b` and `google-t5/t5-11b` must use an additional argument: `--source_prefix "summarize: "`.
 
+### Tutorial
+1. First check the [summarization codes from huggingface](https://github.com/huggingface/transformers/blob/main/examples/pytorch/summarization/run_summarization.py)
+
